@@ -43,7 +43,7 @@ module.exports.run = async (client, message, args) => {
 
         }else if (command["category"] == "Twitch") {
 
-            roblox += `${prefix}${command["name"]} - ${command["description"]}\n`;
+            twitch += `${prefix}${command["name"]} - ${command["description"]}\n`;
 
         }
 
