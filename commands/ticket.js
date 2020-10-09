@@ -63,7 +63,7 @@ module.exports.run = async (client, message, args) => {
                     });
 
                     var embedParent = new discord.MessageEmbed()
-                    .setTitle("Hoi" + message.author.username)
+                    .setTitle("Hoi " + message.author.username)
                     .setDescription("Zet hier je vraag/klacht!")
                     .setColor("#be2ee6");
 

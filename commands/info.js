@@ -17,7 +17,7 @@ return message.channel.send(serverInfo);
 }
 
 module.exports.help = {
-    name: "serverinfo",
+    name: "info",
     description: "Krijg alle informatie van de server.",
     category: "Algemeen"
 }
